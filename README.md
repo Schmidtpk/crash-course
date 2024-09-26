@@ -1,6 +1,6 @@
 # crash-course
 
-Welcome to the course. There are no prerequisites for the course. If you want to use R on your own machine in the future, I recommend installing R and RStudio before the course. For the rest, the local PCs can be used.
+Welcome to the course. There are no prerequisites for the course. If you want to use R on your own machine in the future, I recommend installing [R](https://cran.rstudio.com/) and [RStudio](https://posit.co/download/rstudio-desktop/) before the course. For the rest, the local PCs can be used.
 
 Download the prepared [Rscript](https://github.com/Schmidtpk/crash-course/blob/main/Rscript.R).
 
