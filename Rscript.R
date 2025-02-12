@@ -1,4 +1,4 @@
-# R crash course 2024
+# R crash course 2025
 
 
 # general -----------------------------------------------------------------
@@ -118,6 +118,10 @@ for(i in 1:10){
 
 
 # data --------------------------------------------------------------------
+# data is mostly used in data.frame format
+# contains multiple vectors of same length
+# - each column is a variable
+# - each row a "unit of observation" (e.g., a person or a country)
 
 # save data in df
 df <- ChickWeight
@@ -154,7 +158,7 @@ ggplot(data = df, aes(x=Time,y=weight)) +
 ggplot(df, aes(x=Time,y=weight,col=Diet)) +
   geom_point()
 
-# add facets for the dieat
+# add facets for the diet
 ggplot(df, aes(x=Time,y=weight,col=Diet)) +
   geom_point() +
   facet_wrap(vars(Diet))
@@ -194,7 +198,7 @@ summary(lm(weight ~ Diet * Time , data = df))
 
 # debugging ---------------------------------------------------------------
 # how to correct wrong code
-# again: Google and llms are often very helpful
+# again: Google and llms are often helpful
 
 # EXERCISE: Correct
 
